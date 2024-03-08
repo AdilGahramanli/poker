@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combinaisons Texas Hold'em</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+    #app {
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 800px;
+    }
+    #combinaisons {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .combinaison {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin: 10px;
+      width: 200px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <h1>Combinaisons possibles au Texas Hold'em</h1>
+    <p>
+      Cette application affiche toutes les combinaisons possibles de 5 cartes parmi 52, 
+      sans tenir compte des règles du poker.
+    </p>
+    <div id="combinaisons"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
